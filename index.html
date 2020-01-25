@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head
+>
     <script src="https://kit.fontawesome.com/cdf62a7c5d.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
+     <style>
     *{
         margin: 0;
         padding: 0;
@@ -81,7 +82,178 @@
      .clear {
          clear: both;
      }
-    </style>
+
+     #next {
+         background: url(photo/şekil2.jpg);
+         height: 100vh;
+         background-size: cover;
+         text-align: center;
+         padding: 18em 0;        
+     }
+
+     #next h2 {
+         font-size:50px;  
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    }
+      
+     #next input {
+        background: #1d809f;
+        padding: 20px 40px;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-top: 25px;
+     }
+     #next input:hover {
+         background: #097b9e;
+     }
+
+     #main {
+         text-align: center;
+         height: 100vh;
+         padding-top: 7.5em;
+         padding-bottom: 7.5em;
+         width: 100%;
+    
+     }
+     #main h3 {
+         color: #ecb807;
+     }
+     #main h2 {
+         font-size: 40px;
+     }
+     .photos {
+         margin: auto; 
+         width: 960px;   
+         transition: all 0.5s; 
+
+     }
+     #main .a {
+         background-image: url(photo/a.jpg);
+         background-size: cover;
+         background-position: center;
+         width: 50%;
+         height: 300px;
+         float: left;
+     }
+     #main .b {
+         background-image: url(photo/b.jpg);
+         background-size: cover;
+         background-position: center;
+         width: 50%;
+         height: 300px;
+         float: left;
+         
+     }
+     #main .c {
+         background-image: url(photo/c.jpg);
+         background-size: cover;
+         background-position: center;
+         width: 50%;
+         height: 300px;
+         float: left;
+         
+     }
+     #main .d {
+         background-image: url(photo/şekil2.jpg);
+         background-size: cover;
+         background-position: center;
+         width: 50%;
+         height: 300px;
+         float: left;
+         margin-bottom: 90px;
+     }
+     #main .a:hover {
+         transform: scale(0.9);
+         background: #1d809f;
+         opacity: .5;
+     }
+     #main .b:hover {
+         transform: scale(0.9);
+         background: #1d809f;
+         opacity: .5;
+     }
+    #main .c:hover {
+         transform: scale(0.9);
+         background: #1d809f;
+         opacity: .5;
+     }
+     #main .d:hover {
+         transform: scale(0.9);   
+         background: #1d809f;
+         opacity: .5;
+     }
+     .a-word {
+         padding-top:50%;
+         color:white;
+     }
+     .b-word {
+         padding-top:50%;
+         color:white;
+     }
+     .c-word {
+         padding-top:50%;
+         color:white;
+     }
+     .d-word {
+         padding-top:50%;
+         color:white;
+     }
+     #end {
+         width: 100%;
+         background: #1d809f;
+         text-align:center;
+         height:300px;
+         padding-top:80px;
+     }
+     #end h1 {
+         color:white;
+     }
+     #end .two1,.two2 {
+        padding: 20px 40px;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+        border-radius: 5px;
+        margin-top: 25px;
+     }
+
+     #end .two2 {
+         background: black;
+         color:white;
+     }
+     #end .two1:hover {
+         background:#d4e7f7;
+     }
+     #end .two2:hover {
+         background: #1d1a22;
+     } 
+     #icons {
+         width: 25%;
+         margin: auto;
+         padding: 30px 0; 
+     }
+     #icons .ico-item {
+         float: left;
+         margin-left: 15px;
+         color: #175162;
+         padding: 15px 16px;
+         border-radius: 50%;
+         background: white;
+     }
+
+     #icons .ico-item:hover {
+         color: #2c5a68;
+     }
+      .p {
+         text-align: center;
+         margin: 80px 0;
+         font-size: small;
+         
+     }
+     </style>
 </head>
 <body>
     <div id="find">
@@ -126,8 +298,71 @@
 <div class="clear"></div>
 </div>
     <!-- service end -->
+    <!-- next website start -->
 
-    
+<div id="next">
+    <h2>Welcome to your <br> next website!</h2>
+    <input type="button" value="Download Now!">
+</div>
+   <!-- next website end -->
+   <!-- main start -->
+   <div id="main">
+<h3>PORTFOLIO</h3>
+<h2>Recent Projects</h2>
+<div class="photos">
+    <div class="a">
+        <div class="a-word">
+        <h4>Stationary</h4>
+        <p>A yellow pencil with envelopes on a clean, blue backdrop!</p>
+        </div> 
+    </div>
+    <div class="b">
+        <div class="b-word">
+        <h4>Ice cream</h4>
+        <p>A dark blue background with a colored pencil, a clip and a tiny ice cream cone!</p>
+        </div>
+    </div>
+    <div class="c">
+        <div class="c-word">
+        <h4>Strawberries</h4>
+        <p>Strawberries are such  tasty snack, especially with a little sugar on top!</p>
+        </div>
+    </div>
+    <div class="d">
+        <div class="d-word">
+        <h4>Workspace</h4>
+        <p>A yellow workspace with some scissors, pencils and other objects.</p>
+        </div>
+    </div>
+</div>
+</div>
+<div class="clear"></div>
+   <!-- main end -->
+   <!-- theend start -->
+   <div id="end">
+       <h1>The buttons below are impossible to resist...</h1>
+       <div class="two">
+           <input class="two1" type="button" value="Click me!">
+           <input class="two2" type="button" value="Look at me!">
+           
+       </div>
+   </div>
+   <!-- theend -->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.6638066286296!2d49.8415902157056!3d40.39414316493617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d757b63280d%3A0x1c7f89406ce781e7!2sCompar%20Academy!5e0!3m2!1saz!2s!4v1579870845599!5m2!1saz!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+    <!-- nehayet -->
+    <div id="icons">
+       <div class="ico-item">
+            <i class="fab fa-facebook-square fa-4x"></i>
+       </div> 
+       <div class="ico-item">
+            <i class="fab fa-twitter fa-4x"></i>
+       </div>  
+       <div class="ico-item">
+           <i class="fab fa-github fa-4x"></i>
+       </div> 
+    </div>
+    <div class="p"><p>Copyright © Your Website 2019</p></div> 
+
 </body>
 </html>
